@@ -1,1 +1,2 @@
-ls -1A --group-directories-first | sort -k1.1,1.1 | awk '{printf "%s,", $0} END {print ""}'
+#!/bin/bash
+ls -amvp
